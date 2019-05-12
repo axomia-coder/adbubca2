@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Playlist Script;
+  src: url('fonts/Playlist Script.otf');
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url('fonts/GothamMedium.ttf');
+}
+@font-face {
+  font-family: Thundergood;
+  src: url('fonts/Thundergood.ttf');
+}
+/*=========================================================================================*/
+
+body
+{
+  background: url(back.jpg) no-repeat center center fixed;
+  background-color:white;
+  font-size: 12px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: GothamMedium;
+  color: white;
+
+}
+@media only screen and (max-width: 720px)
+{
+  body
+  {
+    background: url(back2.jpg) no-repeat center center fixed;
+  }
+}
+/*=========================================================================================*/
+
+.opacity
+{
+  padding: 5%;
+}
+h1
+{
+  font-size: 100px;
+  font-family: Thundergood;
+}
+
+@media only screen and (max-width: 720px)
+{
+  h1
+  {
+    font-size: 32px;
+  }
+}
+/*=========================================================================================*/
+.sub
+{
+  font-size: 22px;
+  font-family: times;
+}
+@media only screen and (max-width: 720px)
+{
+  .sub
+  {
+    font-size: 18px;
+  }
+}
+/*=========================================================================================*/
+.hover
+{
+  background-color: rgba(94, 44, 44, 0.99);
+  border-radius: 50px;
+}
+.hover:hover
+{
+  background-color: rgba(49, 23, 23, 0.68);
+  border-radius: 50px;
+}
+.option
+{
+  font-size: 20px;
+  color: white;
+  width: 280px;
+}
+.option2
+{
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  .option
+  {
+    font-size: 20px;
+    color: white;
+    width: 280px;
+    display: flex;
+  }
+}
+p
+{
+  color: white;
+}
+/*=========================================================================================*/
+.imgpdf
+{
+
+  width: 70px;
+  height: auto;
+}
+.pdf
+{
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+}
