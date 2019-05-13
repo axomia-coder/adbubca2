@@ -7,8 +7,8 @@
   src: url('fonts/GothamMedium.ttf');
 }
 @font-face {
-  font-family: Thundergood;
-  src: url('fonts/Thundergood.ttf');
+  font-family: Lucy Black;
+  src: url('fonts/Lucy Black.ttf');
 }
 /*=========================================================================================*/
 
@@ -40,15 +40,15 @@ body
 }
 h1
 {
-  font-size: 100px;
-  font-family: Thundergood;
+  font-size: 170px;
+  font-family: Lucy Black;
 }
 
 @media only screen and (max-width: 720px)
 {
   h1
   {
-    font-size: 32px;
+    font-size: 80px;
   }
 }
 /*=========================================================================================*/
